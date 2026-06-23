@@ -49,8 +49,8 @@ section{
     height: 100vh;
 }
 #banner img{
-width: 500px;
-padding-top: 2px;
+width: 400px;
+padding-top: 5px;
 transform: rotate(180);
 transition: 2s;
 }
