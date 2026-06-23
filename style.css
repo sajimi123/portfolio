@@ -4,8 +4,8 @@
 
 }
 body{
-    background-color:rgb(31, 1, 1);
-    color:bisque;
+    background-color:black;
+    color:whitesmoke;
 }
 .h1{
 font-family: "Roboto Condensed", sans-serif;
@@ -18,7 +18,7 @@ i{
     font-size: 30px;
 }
 header{
-    background-color:rgba(255, 228, 196, 0.377);
+    background-color:rgba(245, 245, 245, 0.555);
     height: 50px;
     width: 100%;
     position: sticky;
@@ -50,6 +50,7 @@ section{
 }
 #banner img{
 width: 400px;
+height: 400px;
 padding-top: 5px;
 transform: rotate(180);
 transition: 2s;
@@ -80,9 +81,14 @@ transition: 2s;
 }
  h1{
     text-align:center;
+    color: whitesmoke;
+}
+.col h2{
+  color: whitesmoke;
 }
 h2{
     text-align: center;
+    color:black;
 }
  
 
@@ -97,11 +103,11 @@ h2{
 .col1{
     width: 250px;
     height: 150px;
-    background-color: rgba(255, 228, 196, 0.349);
+    background-color:black;
    border-radius: 21px;
-background: #412114;
-box-shadow:  11px 11px 22px #381e1365,
-             -11px -11px 22px #0e0907;
+background:azure;
+box-shadow:  11px 11px 22px #27272765,
+             -11px -11px 22px #181211;
              display: flex;
              justify-content: center;
              align-items: center;
@@ -115,7 +121,7 @@ box-shadow:  11px 11px 22px #381e1365,
     flex-wrap: wrap;
 }
 .col2{
-    border: 2px; color: beige;
+    border: 2px; color:aliceblue;
     margin: 30px;
     width: 200px;
     display: flex;
@@ -128,7 +134,7 @@ box-shadow:  11px 11px 22px #381e1365,
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
+  /* border: 1px solid #f5f4f3; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -164,35 +170,38 @@ box-shadow:  11px 11px 22px #381e1365,
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color:aliceblue;
+  color:black;
   transform: rotateY(180deg);
 }
 
 .col3{
     margin-top: 100px;
-   padding-top: 70px;
+   padding-top: 50px;
    text-align:center;
 }
 .col3 img{
-width:150px;
-height: 100px;
+width:250px;
+height: 150px;
 }
-
+.col4{
+  margin: 100px;
+  padding-left: 350px;
+}
 
 /* From Uiverse.io by gharsh11032000 */ 
 .form-container {
   width: 400px;
-  background: linear-gradient(#212121, #212121) padding-box,
-              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
-  border: 2px solid transparent;
-  padding: 32px 24px;
+  background: linear-gradient(#e4dede, #f7f3f3) padding-box,
+              linear-gradient(145deg, transparent 35%,#f8f5f8, #0c0c0c) border-box;
+  border: 1px solid transparent;
+  padding: 40px 40px;
   font-size: 14px;
   font-family: inherit;
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   box-sizing: border-box;
   border-radius: 16px;
 }
@@ -215,8 +224,8 @@ height: 100px;
 
 .form-container .form-group label {
   display: block;
-  margin-bottom: 5px;
-  color: #717171;
+  margin-bottom: 10px;
+  color: #0c0c0c;
   font-weight: 600;
   font-size: 12px;
 }
@@ -237,7 +246,7 @@ height: 100px;
   border-radius: 8px;
   resize: none;
   color: #fff;
-  height: 96px;
+  height: 30px;
   border: 1px solid #414141;
   background-color: transparent;
   font-family: inherit;
@@ -263,11 +272,11 @@ height: 100px;
   justify-content: center;
   align-self: flex-start;
   font-family: inherit;
-  color: #717171;
+  color: #0a0808;
   font-weight: 600;
   width: 40%;
-  background: #313131;
-  border: 1px solid #414141;
+  background: #dad8d8;
+  border: 1px solid #0e0d0d;
   padding: 12px 16px;
   font-size: inherit;
   gap: 8px;
@@ -292,11 +301,11 @@ align-items: center;
     padding: 0;
   }
   body{
-    background-color:rgb(31, 1, 1);
-    color:bisque;
+    background-color:black;
+    color:whitesmoke;
   }
   header{
-    background-color:rgba(255, 228, 196, 0.377);
+    background-color:rgba(245, 245, 245, 0.555);
     width: 100%;
    position: sticky;
    top:0;
